@@ -1,0 +1,113 @@
+{
+    "intents":
+    [
+        {"intent": "NAME",
+        "patterns": [
+            "Wie heißt du?",
+            "Wie nennt man dich?",
+            "Was ist dein Name?",
+            "Wie heißt du bzw. dein Name?",
+            "Kannst du mir sagen, wie man dich nennt?",
+            "Sag mir deinen Namen!",
+            "Wie soll ich dich ansprechen?",
+            "Nenn mir doch bitte deinen Namen!",
+            "Hallo, wer bist du?",
+            "Wer bist du?"
+        ]},
+        {"intent": "FUNKTION",
+        "patterns": [
+            "Erzähl mir doch was.",
+            "Wie funktionierst du?",
+            "Was kannst du für mich machen?",
+            "Was ist deine Funktion?",
+            "Deine Funktion, bitte!",
+            "Mehr Informationen zu deinen Funktionen, bitte!",
+            "Wie kannst du mir helfen?",
+            "Wie genau kannst du mir helfen?",
+            "Wie kannst du mich denn unterstützen?"
+        ]},
+        {"intent":  "HOBBIES",
+        "patterns": [
+            "Was sind deine Hobbies?",
+            "Was machst du gerne in deiner Freizeit?",
+            "Was machst du gerne?",
+            "Was magst du?",
+            "Was machst du gerne nachmittags?",
+            "Wie verbringst du deine Freizeit?",
+            "Was macht dir Spaß?",
+            "Woran hast du Freude?"
+        ]},        
+        {"intent": "LRZ_NAME",
+        "patterns": [
+            "Was bedeutet die Abkürzung LRZ?",
+            "Was heißt LRZ",
+            "Was heißt die Abkürzung LRZ?",
+            "Was steht hinter dem Namen LRZ?",
+            "Was ist das LRZ?",
+            "Was bedeutet die Abkürzung LRZ?",
+            "Was steck hinter dem Namen LRZ?",
+            "Was bedeutet LRZ?"
+        ]},        
+        {"intent": "LRZ_FUNKTION",
+        "patterns": [
+            "Was macht das LRZ?",
+            "Was ist das Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften?",
+            "Was macht das Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften?",
+            "Was ist ein Rechenzentrum?",
+            "Was kann das LRZ?",
+            "Welche Funktionen erfüllt das LRZ?",
+            "Welche Funktionen hat das Leibniz-Rechenzentrum?",
+            "Welche Aufgaben hat das LRZ?",
+            "Welche Aufgaben hat das Leibniz-Rechenzentrum?"
+        ]},
+        {"intent": "LRZ_ORT",
+        "patterns": [
+            "Wo ist das LRZ?",
+            "Wo liegt das LRZ",
+            "Wo ist der Standort des LRZ?",
+            "Wo ist das Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften?",
+            "Wo liegt ist das Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften?",
+            "Wo ist ist der Standort des Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften?"                     
+        ]},
+        {"intent": "LRZ_ENTSTEHUNG",
+        "patterns": [
+            "Wie lange gibt es das LRZ schon?",
+            "Seit wann gibt es das LRZ?",
+            "Wann entstand das LRZ?",
+            "Wie lange gibt es das Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften schon?",
+            "Seit wann gibt es das Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften?",
+            "Wann entstand das Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften?",
+            "In welchem Jahr wurde das LRZ gegründet?",
+            "Wann erstand das LRZ?"                     
+        ]},
+        {"intent": "LRZ_MITARBEITER",
+        "patterns": [
+            "Wie viele Mitarbeiter hat das LRZ?",
+            "Wie viele Menschen arbeiten am LRZ?",
+            "Wie viele Mitarbeiter hat das Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften schon?",
+            "Wie viele Menschen arbeiten am Leibniz-Rechenzentrum der Bayerischen Akademie der Wissenschaften?",
+            "Wie viele Personen arbeiten am LRZ?",
+            "Wie viele Personen arbeiten am Leibniz-Rechenzentrum?"                
+        ]},
+        {"intent":  "SARCASM",
+        "patterns": [
+          "Erzähle mir einen Witz",
+          "Kannst du mir einen Witz erzählen?",
+          "Erzähle mir was lustiges",
+          "Kannst du mir etwas witziges erzählen",
+          "Ich will etwas lustiges hören", 
+          "Erzähle mir einen Witz über Informatiker",
+          "Ich möchte einen Informatiker Witz hören",
+          "Erzähle mir einen IT Witz."
+          ]},
+          {"intent":  "LRZ_SUPERCOMPUTER",
+          "patterns": [
+            "Bitte erzähle mir etwas zum Supercomputer vom LRZ",
+            "Kannst du mir etwas zum SuperMUC erzählen?",
+            "Wie heißt der Höchstleistungsrechner des LRZ?",
+            "Was ist besonders am SuperMUC?", 
+            "Erzähle mir mehr über den Supercomputer vom LRZ",
+            "Was ist ein Supercomputer?"
+          ]}
+    ]
+}

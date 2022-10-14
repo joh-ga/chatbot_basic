@@ -1,0 +1,69 @@
+{
+    "response":
+        [
+        {"intent": "NAME",
+        "patterns": [
+            "Mein Name ist Mika.",
+            "Ich heiße Mika."
+        ]},
+        {"intent": "FUNKTION",
+          "patterns": [
+            "Ich bin ein Chatbot, der mit dir sprechen kann und dir Fragen rund um das LRZ beantwortet.",
+            "Ich gebe meine Bestes dich über das LRZ zu lehren. Los stell eine Frage!"
+        ]},
+        {"intent":  "HOBBIES",
+        "patterns": [
+            "Ich liebe Umarmungen.",
+            "Ich liebe den Schnee.",
+            "Ich bin gerne im Rechenzentrum unterwegs und schnappe neue Dinge auf.",
+            "Ich lese gerne neue Paper zu Supercomputern 🤓"
+        ]},
+          {"intent": "LRZ_NAME",
+        "patterns": [
+            "LRZ steht für Leibniz-Rechenzentrum.",
+            "Mit LRZ ist das Leibniz-Rechenzentrum gemeint."
+        ]},
+        {"intent": "LRZ_FUNKTION",
+        "patterns": [
+            "Das Leibniz-Rechenzentrum (LRZ) der Bayerischen Akademie der Wissenschaften in Garching bei München ist das zentrale Rechenzentrum der beiden Münchner Landesuniversitäten Ludwig-Maximilians-Universität München und Technische Universität München und der Akademie der Wissenschaften. Über das LRZ sind die Hochschule für angewandte Wissenschaften München und viele andere akademische Einrichtungen im Großraum München an das Münchner Wissenschaftsnetz angeschlossen. Träger ist die Bayerische Akademie der Wissenschaften, das LRZ ist organisatorisch ein Akademieinstitut.",
+            "Das LRZ betreibt Hoch- und Höchstleistungsrechner.",
+            "Das LRZ unterstützt die Unis und Hochschulen in München bei der Kommunikationsinfrastruktur, wie z. B. E-Mail und Web-Services, bei digitalen Lehrangeboten, die Produktion neuer Erkenntnisse durch numerische Simulationen bis hin zur Archivierung der Ergebnisse.",
+            "Das LRZ bietet seinen Nutzern ein umfangreiches Kursangebot und individuelle Beratung in allen Fragender Informationstechnologie rund um Studium und Wissenschaft. Es vermittelt bayernweit Software Lizenzen zu günstigen Hochschulkonditionen und übernimmt für alle seine Nutzer die Kosten für eine professionelle Anti-Viren-Software."
+        ]},
+        {"intent": "LRZ_ORT",
+        "patterns": [
+            "Das LRZ ist in Garching bei München.",
+            "Das LRZ liegt in Garching bei München.",
+            "Das Leibniz-Rechenzentrum ist in Garching bei München.",
+            "Das Leibniz-Rechenzentrum ist in Garching bei München."    
+        ]},
+        {"intent": "LRZ_ENTSTEHUNG",
+        "patterns": [
+            "Das LRZ wurde 1962 mit dem Namen „Kommission für elektronisches Rechnen“ gegründet; der heutige Name geht auf Gottfried Wilhelm Leibniz zurück. Trotz seines Namens ist das LRZ nicht Mitglied der Leibniz-Gemeinschaft. Organisiert ist das LRZ unter anderem im Gauss Centre for Supercomputing (GCS)."
+        ]},
+        {"intent": "LRZ_MITARBEITER",
+        "patterns": [
+            "Am LRZ arbeiten zurzeit ca. 260 Mitarbeiter (Stand 2019).",
+            "Seit 2019 arbeiten ungefähr 260 Mitarbeiter.",
+            "Am Leibniz-Rechenzentrum sind 260 Personen beschäftigt."
+        ]},
+        {"intent":  "SARCASM",
+        "patterns":  [
+          "Wie viele Programmierer braucht man, um eine Glühbirne zu wechseln? - Keinen, es ist ein Hardware-Problem.",
+          "Warum lieben Frauen objektorientierte Programmierer? -Weil sie Klasse haben.",
+          "Was hat Windows und ein U-Boot gemeinsam? - Macht man ein Fenster auf, fangen die Probleme an.",
+          "Linux wird nie das meist installierte Betriebssystem sein, wenn man bedenkt, wie oft man Windows neu installieren muss",
+          "Wie viele Microsoft Programmierer braucht man um eine Glühbirne zu wechseln? – Keinen, Dunkelheit wird zum neuen Standard erklärt."
+        ]},
+        {"intent":  "LRZ_SUPERCOMPUTER",
+        "patterns": [
+          "Seit Jahrzehnten betreibt das LRZ Supercomputer der Spitzenklasse.",
+          "Der aktuelle Höchstleistungsrechner SuperMUC-NG ist der acht schnellste Computer weltweit.Mit einer Spitzenleistung von 26,9 Petaflops (also fast siebenundzwanzig Billiarden Rechenoperationen pro Sekunde), einem Hauptspeicher von 719 Terabytes, fünfzig Petabytes externem Speicher und einem Hochgeschwindigkeitsnetz stellt er Forschern u.a. aus Physik und Chemie, Lebens-,Geo-, Umwelt- und Ingenieurswissenschaften die benötigte erstklassige Informationstechnologie zur Verfügung.",
+          "Der SuperMUC zeichnet sich durch seine innovative Warmwasserkühlung aus, die ihn zu einem der energieeffizientesten Rechnerseiner Art weltweit macht."
+        ]},
+        {"intent": "SONSTIGES",
+        "patterns": [
+            "Das weiß ich leider nicht. Schau doch mal im Internet oder stell mir eine andere Frage. Dankeschön!"
+        ]}
+        ]
+}
